@@ -6,15 +6,13 @@ this case, it means the app must startup quickly and present a minimal UI.
 Dependencies
 ------------
 You must have the `python-qt4-sql` package (and it's dependencies) installed
-for Syleqt to function.  On Ubuntu, this can be installed using apt.
+for Syleqt to function.  On Ubuntu, this can be installed using `apt-get`.  The
+rest is optional
 
-Building the assets requires the following packages
-
- * pyqt4-dev-tools
-
-Development requires the following packages
-
- * qtcreator
+ * python-qt4-sql (required)
+ * pyqt4-dev-tools (build resources)
+ * qtcreator (UI designer)
+ * libqt4-sql-* (individual SQL engine drivers)
 
 Change Log
 ----------
@@ -115,8 +113,8 @@ Known Issues / Desired Feature:
 
  * Initial release
 
-Bulding Asset Images
---------------------
+Generate Asset Images
+---------------------
 To generate other colored icons, use a color change as follows:
 
  * Green: Blue Hue -110
