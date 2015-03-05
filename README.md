@@ -83,7 +83,7 @@ Known Issues / Desired Feature:
  * Added limited connection management support; connections are
    created by placing a line in ~/.syleqt in the following format:
    
-    - DRIVER\USER:PASS@HOST\DB?COMMENT?DESCRIPTION
+    - DRIVER\USER:PASS@HOST/DB?COMMENT?DESCRIPTION
    
    The only required part is the driver.  Without going into detail,
    Syleqt tries to intelligently determine which parts are there and
