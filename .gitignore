@@ -1,3 +1,4 @@
 *.pyc
-src/ui_*
 res/images
+src/ui_*
+src/resources.py
