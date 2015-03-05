@@ -1,0 +1,9 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/image">
+        <file alias="DBRemote.png">res/images/db-blue.png</file>
+        <file alias="DBRemoteLocked.png">res/images/db-blue-lock.png</file>
+        <file alias="DBLocal.png">res/images/db-green.png</file>
+        <file alias="DBLocalLocked.png">res/images/db-green-lock.png</file>
+    </qresource>
+</RCC>
