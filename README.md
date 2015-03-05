@@ -115,19 +115,33 @@ Known Issues / Desired Feature:
 
  * Initial release
 
-Bulding Assets
---------------
+Bulding Asset Images
+--------------------
 To generate other colored icons, use a color change as follows:
 
  * Green: Blue Hue -110
  * Gray: Master Sat -100
  * Yellow: Blue Hue -170
 
-These assets should be saved to ./res/images/db-COLOR(-lock)?.png
+These images should be saved to ./res/images/db-COLOR(-lock)?.png
 
-Building UI resources
+Building UI Resources
 ---------------------
 ```
 pyuic4 ui/AppWindow.ui > src/ui_AppWindow.py
 pyuic4 ui/OpenDialog.ui > src/ui_OpenDialog.py
+```
+
+Building Image Resources
+------------------------
+```
+pyrcc4 res/resources.qrc > src/resources.py
+```
+
+Building Distribution
+---------------------
+```
+cp src/*.py bin/
+chmod +x bin/syleqt.py
+ln -s syleqt.py bin/syleqt
 ```
