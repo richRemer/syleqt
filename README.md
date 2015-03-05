@@ -18,30 +18,9 @@ Development requires the following packages
 
 Change Log
 ----------
-0.x
+Known Issues / Desired Feature:
 
- Known Issues / Desired Feature:
- 
-   - someway to get entire error message as statusbar is too short
-   - reconnect does not work; segfaults in some cases
-   - add queries as bookmarks
-   - SQuirreL-style macros
-   - save current query
-   - save current result
-   - copy results
-   - Bookmarks / Browser / Shortcuts sidebar
-   - Bookmarks (connection bookmarks and show current)
-   - Browser (schema browser and table-relation view)
-   - Shortcuts (saved SQL queries)
-   - syntax highlighting
-   - auto-reconnect ?
-   - open with no connection file show error to console
-   - open dialog requires mouse to select connection if there is only
-     a single connection
-   - ability to execute SQL from commandline and pop a dialog with
-     results only (no query area) and title
-   - ability to call scripts as above from a configurable hot key
-
+ * https://github.com/richRemer/syleqt/issues
 
 0.5.2
 
