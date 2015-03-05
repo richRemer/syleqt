@@ -1,11 +1,20 @@
+Syleqt
+======
+Syleqt aims to be a lightweight SQL client.  What does lightweight mean?  In
+this case, it means the app must startup quickly and present a minimal UI.
+
 Dependencies
 ------------
-You must have the python-qt4-sql package (and it's dependencies) installed
+You must have the `python-qt4-sql` package (and it's dependencies) installed
 for Syleqt to function.  On Ubuntu, this can be installed using apt.
 
+Building the assets requires the following packages
+
+ * pyqt4-dev-tools
+
 Development requires the following packages
-qtcreator
-pyqt4-dev-tools
+
+ * qtcreator
 
 Change Log
 ----------
