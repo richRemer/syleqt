@@ -122,3 +122,12 @@ To generate other colored icons, use a color change as follows:
  * Green: Blue Hue -110
  * Gray: Master Sat -100
  * Yellow: Blue Hue -170
+
+These assets should be saved to ./res/images/db-COLOR(-lock)?.png
+
+Building UI resources
+---------------------
+```
+pyuic4 ui/AppWindow.ui > src/ui_AppWindow.py
+pyuic4 ui/OpenDialog.ui > src/ui_OpenDialog.py
+```
